@@ -3,8 +3,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - sudo yum install pip -y
-      - sudo yum install python -y
+      # - sudo yum install pip -y
+      # - sudo yum install python -y
       - pip install -r requirements.txt
   build:
     commands:
