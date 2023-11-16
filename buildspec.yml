@@ -5,9 +5,9 @@ phases:
     runtime-versions:
       python: 3.8
     commands:
-			- sudo yum install git -y 
-			-	sudo yum install pip -y
-			-	sudo yum install python -y
+      - sudo yum install git -y 
+      - sudo yum install pip -y
+      - sudo yum install python -y
       - pip install -r requirements.txt
   build:
     commands:
